@@ -1,0 +1,12 @@
+[package]
+name = "aptos-social-network-contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+aptos_social_network_contract = "8defbce28c294ef554e6d61297885e26b9cbdbb506aea6d70e16decd98cc1d1c"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
